@@ -1,0 +1,68 @@
+name: a1shop
+description: "A new Flutter project."
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.6.0
+  riverpod: ^3.2.1
+  flutter_riverpod: ^3.2.1
+  hooks_riverpod: ^3.2.1
+  rive_animated_icon: ^2.0.5
+  flutter_bakong_khqr: ^0.0.3
+  slide_to_confirm: ^1.1.0
+  carousel_slider: ^5.1.2
+  smooth_page_indicator: ^2.0.1
+  flutter_native_splash: ^2.4.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  custom_lint: ^0.8.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/KHQR.png
+    - assets/images/poster1.png
+    - assets/images/poster2.jpg
+    - assets/images/poster3.jpg
+    - assets/images/poster4.jpg
+    - assets/images/skincare.png
+    - assets/images/shop_splash.jpg
+  #   - images/a_dot_ham.jpeg
+
+  fonts:
+    - family: Coffee
+      fonts:
+        - asset: assets/fonts/Coffee_Spark.ttf
+        # - asset: fonts/Schyler-Italic.ttf
+        # style: italic
+    - family: Toony
+      fonts:
+        - asset: assets/fonts/ToonyLine.otf
+          # - asset: fonts/TrajanPro_Bold.ttf
+          weight: 700
+    - family: Glitch
+      fonts:
+        - asset: assets/fonts/DoctorGlitch.otf
+          # - asset: fonts/TrajanPro_Bold.ttf
+          weight: 700
+    - family: Outfielder
+      fonts:
+        - asset: assets/fonts/Outfielder.ttf
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/RobotoGoogle.ttf
+    - family: Infected
+      fonts:
+        - asset: assets/fonts/INFECTED.ttf   
